@@ -6,7 +6,7 @@
  })
 </script>
 <template>
-    <img :src="src? src : ''" :alt="alt? alt : ''" :class="class_img? class_img : ''">
+    <img :src="props.src? src : ''" :alt="alt? alt : ''" :class="class_img? class_img : ''">
 </template>
 
 

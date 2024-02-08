@@ -13,7 +13,7 @@ const props = defineProps({
    
 </script>
 <template>
-    <i :class="[type_icon ? 'material-symbols-' + type_icon : 'material-symbols-rounded' , fill_enable? 'fill': '']">
+    <i :class="[props.type_icon ? 'material-symbols-' + type_icon : 'material-symbols-rounded' , fill_enable? 'fill': '']">
         <span :class="class_icon ? class_icon : 'text-white text-3xl fill-current'">{{ icon_name ? icon_name : 'more_horiz' }}</span>
       </i>
       
